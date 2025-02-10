@@ -1,0 +1,2 @@
+您同步下本地时间再重试下，请确保时间戳参数遵循以下规则：
+server_time - recv_window <= timestamp < server_time + 1000
