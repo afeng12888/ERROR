@@ -1,0 +1,4 @@
+2025-02-10 22:15:23,403 - INFO - === 初始化交易系统 ===
+2025-02-10 22:15:23,782 - ERROR - API连接失败: Http status code is not 200. (ErrCode: 401) (ErrTime: 14:15:23).
+Request → GET https://api-testnet.bybit.com/v5/account/wallet-balance: accountType=UNIFIED&coin=USDT.
+2025-02-10 22:15:23,783 - ERROR - API测试失败，程序退出
