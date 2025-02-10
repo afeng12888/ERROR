@@ -1,0 +1,28 @@
+2025-02-10 13:53:16,475 - INFO - 正在初始化交易系统...
+2025-02-10 13:53:16,482 - INFO - 交易对: DOGEUSDT
+2025-02-10 13:53:16,483 - INFO - 杠杆倍数: 2x
+2025-02-10 13:53:16,921 - ERROR - invalid request, please check your server timestamp or recv_window param. req_timestamp[1739191996484],server_timestamp[1739192023318],recv_window[5000] (ErrCode: 10002). Added 2.5 seconds to recv_window. 2 retries remain.
+2025-02-10 13:53:20,181 - ERROR - invalid request, please check your server timestamp or recv_window param. req_timestamp[1739191999922],server_timestamp[1739192026551],recv_window[7500] (ErrCode: 10002). Added 2.5 seconds to recv_window. 1 retries remain.
+2025-02-10 13:53:23,336 - ERROR - invalid request, please check your server timestamp or recv_window param. req_timestamp[1739192003182],server_timestamp[1739192029735],recv_window[10000] (ErrCode: 10002). Added 2.5 seconds to recv_window. 0 retries remain.
+2025-02-10 13:53:26,337 - ERROR - 设置杠杆失败: Bad request. retries exceeded maximum. (ErrCode: 400) (ErrTime: 12:53:26).
+Request → POST https://api.bybit.com/v5/position/set-leverage: {"category": "linear", "symbol": "DOGEUSDT", "buy_leverage": 2, "sell_leverage": 2}.
+2025-02-10 13:53:26,338 - INFO - === DOGE交易系统启动 ===
+2025-02-10 13:53:26,340 - INFO - 最大持仓数量: 3
+2025-02-10 13:53:26,343 - INFO - 每日最大亏损: 50 USDT
+2025-02-10 13:53:26,573 - INFO - 当前价格: 0.24978
+2025-02-10 13:53:26,734 - INFO - 当前价格: 0.24978
+2025-02-10 13:53:26,891 - ERROR - invalid request, please check your server timestamp or recv_window param. req_timestamp[1739192006735],server_timestamp[1739192033285],recv_window[5000] (ErrCode: 10002). Added 2.5 seconds to recv_window. 2 retries remain.
+2025-02-10 13:53:30,024 - ERROR - invalid request, please check your server timestamp or recv_window param. req_timestamp[1739192009892],server_timestamp[1739192036421],recv_window[7500] (ErrCode: 10002). Added 2.5 seconds to recv_window. 1 retries remain.
+2025-02-10 13:53:33,188 - ERROR - invalid request, please check your server timestamp or recv_window param. req_timestamp[1739192013025],server_timestamp[1739192039568],recv_window[10000] (ErrCode: 10002). Added 2.5 seconds to recv_window. 0 retries remain.
+2025-02-10 13:53:36,189 - ERROR - 获取持仓失败: Bad request. retries exceeded maximum. (ErrCode: 400) (ErrTime: 12:53:36).
+Request → GET https://api.bybit.com/v5/position/list: category=linear&symbol=DOGEUSDT.
+2025-02-10 13:53:41,331 - INFO - 当前价格: 0.24966
+2025-02-10 13:53:41,489 - ERROR - invalid request, please check your server timestamp or recv_window param. req_timestamp[1739192021332],server_timestamp[1739192047885],recv_window[5000] (ErrCode: 10002). Added 2.5 seconds to recv_window. 2 retries remain.
+2025-02-10 13:53:44,627 - ERROR - invalid request, please check your server timestamp or recv_window param. req_timestamp[1739192024490],server_timestamp[1739192051027],recv_window[7500] (ErrCode: 10002). Added 2.5 seconds to recv_window. 1 retries remain.
+2025-02-10 13:53:47,776 - ERROR - invalid request, please check your server timestamp or recv_window param. req_timestamp[1739192027636],server_timestamp[1739192054180],recv_window[10000] (ErrCode: 10002). Added 2.5 seconds to recv_window. 0 retries remain.
+2025-02-10 13:53:50,786 - ERROR - 获取持仓失败: Bad request. retries exceeded maximum. (ErrCode: 400) (ErrTime: 12:53:50).
+Request → GET https://api.bybit.com/v5/position/list: category=linear&symbol=DOGEUSDT.
+2025-02-10 13:53:55,949 - INFO - 当前价格: 0.24969
+2025-02-10 13:53:56,093 - ERROR - invalid request, please check your server timestamp or recv_window param. req_timestamp[1739192035949],server_timestamp[1739192062491],recv_window[5000] (ErrCode: 10002). Added 2.5 seconds to recv_window. 2 retries remain.
+2025-02-10 13:53:59,248 - ERROR - invalid request, please check your server timestamp or recv_window param. req_timestamp[1739192039108],server_timestamp[1739192065651],recv_window[7500] (ErrCode: 10002). Added 2.5 seconds to recv_window. 1 retries remain.
+2025-02-10 13:54:02,411 - ERROR - invalid request, please check your server timestamp or recv_window param. req_timestamp[1739192042248],server_timestamp[1739192068800],recv_window[10000] (ErrCode: 10002). Added 2.5 seconds to recv_window. 0 retries remain.
