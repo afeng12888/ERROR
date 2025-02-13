@@ -1,0 +1,4 @@
+[+] Running 0/1
+ ⠋ Container freqtrade  Creating                                                                                               0.0s 
+Error response from daemon: Conflict. The container name "/freqtrade" is already in use by container "d6895722d98c180319be062b827ce12190d7988fb36d3544da9c2b5fdbd43e9d". You have to remove (or rename) that container to be able to reuse that name.
+exit status 1
